@@ -11,3 +11,7 @@ I decided to write some regex to take any of the determined categories then any 
 
 Tests:
 
+JUnit tests are included unser /src/neustar/CategorizerTest.java
+The first test uses a file with the same text given in the description, and tests if the correct number of items were added.
+The second tests a non existent file.
+Other test cases I could write include: no items read, no items read for some categories, what happens if I read a file more than once.
