@@ -8,3 +8,6 @@ Checking if an item already exists in a set is O(1).
 Since there would be a set to each category I decided I needed a hash table to map categories to their sets.
 
 I decided to write some regex to take any of the determined categories then any item allowing spaces.
+
+Tests:
+
