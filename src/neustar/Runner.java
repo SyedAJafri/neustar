@@ -5,7 +5,7 @@ import java.io.IOException;
 
 public class Runner {
 
-	public void main(String[] args) throws IOException {
+	public static void main(String[] args) throws IOException {
 
 		if(args.length != 1){
 			System.out.println("Usage: java -jar categorizer.jar <filename>");
